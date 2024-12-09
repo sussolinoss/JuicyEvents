@@ -1,0 +1,7 @@
+name: JuicyEvents
+version: '${project.version}'
+main: dev.sussolino.juicyevents.Initializer
+api-version: '1.19'
+commands:
+  event:
+    permission: events.media

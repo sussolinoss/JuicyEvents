@@ -1,0 +1,58 @@
+
+##################################
+#                                #
+#                                #
+#            BASIC               #
+#                                #
+#                                #
+##################################
+prefix: "&e[&6Event&e] &8=>&f"
+announce: "%prefix% %event% is starting..."
+fallback:
+  - "lobby-1"
+  - "lobby-2"
+  - "lobby-3"
+
+event:
+  join: "%event% &ajoined!"
+  stop: "%event% &cstopped!"
+  start: "%event% &astarted!"
+  enable: "%event% &aenabled!"
+  create: "%event% &acreated!"
+  delete: "%event% &cdeleted!"
+
+  ##################################
+  #                                #
+  #                                #
+  #            SETTINGS            #
+  #                                #
+  #                                #
+  ##################################
+
+  set:
+    kit: "%event% &akit has been set!"
+    position: "%event% &aposition has been saved!"
+    lobby: "%event% &alobby location has been set!"
+    delay: "%event% &adelay has been set to &e%time%!"
+
+  ##################################
+  #                                #
+  #                                #
+  #            ERRORS              #
+  #                                #
+  #                                #
+  ##################################
+
+  already:
+    exist: "%event% &calready exists!"
+    enabled: "%event% &cis already enabled!"
+    started: "%event% &chas already started!"
+    finished: "%event% &chas already finished!"
+  not:
+    exist: "%event% &cdoes not exist!"
+    enabled: "%event% &cis not enabled!"
+    started: "%event% &chas not started yet!"
+    kit: "%event% &crequires a kit to be set!"
+    lobby: "%event% &crequires a lobby to be set!"
+    position: "%event% &crequires a valid position!"
+
